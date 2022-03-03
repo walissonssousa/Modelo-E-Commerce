@@ -1,11 +1,14 @@
 # Nome do Ativo
-* Start-laravel-docker MODELO  PHP COM LARAVEL
+* E-commerce MODELO  || PHP COM LARAVEL && NEXT.JS
 
 # Tecnologia
 * PHP 7.4
 * Composer
 * Apache 2
 * Docker
+* Next.js
+* Laravel
+* Mysql
 
 
 
