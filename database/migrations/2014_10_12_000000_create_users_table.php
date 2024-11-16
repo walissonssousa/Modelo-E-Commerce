@@ -19,8 +19,8 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->date('data_mascimento');
             $table->string('cpf')->nullable();
-            $table->string(enviar_sms);
-            $table->enum('F', 'M');
+            $table->string('enviar_sms');
+            $table->enum('gender', ['F', 'M']);
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();

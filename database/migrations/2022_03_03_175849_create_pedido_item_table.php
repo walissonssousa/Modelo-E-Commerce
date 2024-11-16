@@ -16,7 +16,7 @@ class CreatePedidoItemTable extends Migration
         Schema::create('pedido_item', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('produto_id')->unsigned();
-            $table->foreign('produto_id')->references('id')->on('porduto');
+            $table->foreign('produto_id')->references('id')->on('produto');
             $table->string('quantidade');
             $table->string('valor_total_itens');
             $table->string('valor_frete');
